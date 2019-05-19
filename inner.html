@@ -6,18 +6,19 @@
   </head>
   <body>
     <header>
-      <nav class="site-navigation">
+        <section class="scope" >
         <a class="header-logo">
           <img src="img/logo-technomart.svg" width="119" height="19" alt="Логотип Техномарта">
         </a>
 
-        <span class="search">Поиск:</span>
+        <input class="search" type="text">Поиск:</input>
 
-        <span class="bookmark">Закладки:0</span>
+        <a href="bookmark.html" class="bookmark">Закладки:0</a>
 
         <a class="basket" href="basket.html">корзина:0</a>
 
         <a class="order" href="order.html">Оформить заказ</a>
+        </section>
 
         <h1>Интернет-магазин строительных материалов и инструментов для ремонта</h1>
 
@@ -25,14 +26,22 @@
 
         <span class="address">г.Санкт-Питербург,ул. Б. Конюшенная, д 19/8</span>
 
-        <a class="input" href="input.html">Войти</a>
+        <a class="profile" href="profile.html">Равшан Джамшутович</a>
+        <ul>
+          <li>
+              <a href="my-order">мои заказы</a>
+          </li>
+          <li>
+            <a href="my-room">Личный кабинет</a>
+          </li>
+        </ul>
 
         <a class="registration" href="registration.html">Регистрация</a>
-
+      <nav class="site-navigation">
         <ul class="main-navigation">
           <li><a href="main-pag.html">Главная</a></li>
           <li><a href="company.html">Компания</a></li>
-          <li><a href="catalog.html">Каталог</a></li>
+          <li><a href="inner.html">Каталог</a></li>
           <li><a href="news.html">Новости</a></li>
           <li><a href="special offer.html">Спецпредложения</a></li>
           <li><a href="delivery.html">Доставка</a></li>
@@ -43,13 +52,44 @@
     <main class="container">
       <ul>
         <li><a href="index.html">Главная</a></li>
-        <li><a>Каталог</a></li>
+        <li><a href="inner.html">Каталог</a></li>
         <li><a>Инструмент</a></li>
         <li>Перфораторы</li>
       </ul>
 
       <h2>Перфораторы</h2>
-      <h2 class="visually-hidden">Фильтр товаров</h2>
+      <h3>Фильтр:</h3>
+
+      <form class="sort">
+          <legend>Сортировка:</legend>
+          <ul>
+              <li>
+                  <input type="radio" name="sort" value="prise" id="sort-prise">
+              <label for="sort-prise">
+                По цене
+              </label>
+              </li>
+              <li>
+                  <input type="radio" name="sort" value="type" id="sort-type">
+              <label for="sort-type">
+                По типу
+              </label>
+              </li>
+              <li>
+                  <input type="radio" name="sort" value="functional" id="sort-functional">
+              <label for="sort-functional">
+                По функционалу
+              </label>
+              </li>
+          </ul>
+          <button>
+            <img src="img/icon-up-dir.svg" width="11" height="10" alt="закрыть сортировку">
+          </button>
+          <button>
+              <img src="img/icon-down-dir.svg" width="11" height="10" alt="открыть сортировку">
+            </button>
+      </form>
+
 
       <form class="filters" method="get"
       action="https://echo.htmlacademy.ru">
@@ -100,7 +140,7 @@
             <li>
                 <input type="radio" name="product-group" value="network" id="filter-network" >
                 <label for="filter-network">
-                  АККУМУЛЯТОРНЫЕ
+                  Сетевые
                 </label>
             </li>
         </ul>
@@ -232,6 +272,31 @@
                         </p>
                     </li>
             </ul>
+      </section>
+
+      <div class="page-leaf">
+        <ul>
+          <li>
+            <a href="#">1</a>
+          </li>
+          <li>
+            <a href="#">2</a>
+          </li>
+          <li>
+            <a href="#">3</a>
+          </li>
+          <li>
+              <a href="#">Следующая</a>
+            </li>
+        </ul>
+      </div>
+
+      <section class="comment">
+        <h2>Пара слов о перфораторах</h2>
+        <p> Перфоратор — универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне.
+            Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка.
+            В ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены отбойный молоток и ударная дрель.
+        </p>
       </section>
     </main>
     <footer>
