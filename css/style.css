@@ -1,0 +1,500 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 17px;
+  font-weight: 400;
+  color: #fff ;
+
+  background-color: #ffffff;
+
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.scope {
+  line-height: 18px;
+  font-size: 17px;
+  color:#ffffff;
+  width:1200px;
+  height:42px;
+  background-color:#293449;
+  text-align: left;
+
+}
+.scope:hover,
+.scope:focus{
+  background-color: #293449;
+}
+.header-logo {
+  width: 220px;
+  height: 47px;
+  box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.24);
+  background-color: #ee3643;
+  margin-left: 130px;
+
+  display:inline-block;
+}
+.header-logo:hover,
+.header-logo:focus{
+  background-color: #ca2c37;
+}
+.search{
+  width: 270px;
+  height: 40px;
+  background-color: #293449;
+  color: #fff;
+  border: none;
+
+}
+.search:hover,
+.search:focus{
+  background-color: #212a3a;
+}
+.bookmark{
+  width: 150px;
+  height: 42px;
+  padding: 14px 28px 11px 44px;
+
+}
+.bookmark:hover,
+.bookmark:focus{
+background-color: #212a3a;
+}
+
+
+.basket{
+  padding: 14px 31px 11px 50px;
+}
+.basket:hover,
+.basket:focus{
+  background-color: #212a3a;
+}
+.order{
+  padding: 14px 22px 11px 20px;
+  background-color: #63a63e;
+}
+.order:focus,
+.order:hover{
+  background-color: #5fbb2d;
+}
+.main-navigation{
+  width: 1200px;
+  height: 320px;
+  padding-top: 50px;
+  background-color: #f4f7f9;
+}
+.h1-main{
+  width: 196px;
+  height: 60px;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: italic;
+  line-height: 1.44;
+  color: #ee3643;
+
+}
+.contact{
+  font-size: 21px;
+  line-height:21px;
+  color: #ee3643;
+  width: 270px;
+  height: 45px;
+  border: solid 3px #ffffff;
+  text-align: center;
+  margin-top: 13px;
+}
+.address{
+  height: 13px;
+  font-family: Cuprum;
+  font-size: 14px;
+  text-align: center;
+  color: #32425c;
+
+}
+.input{
+  width: 121px;
+  height: 45px;
+  font-size: 21px;
+  text-align: left;
+  color: #000000;
+  text-align: left;
+  background-color: #fff;
+  display: inline-block;
+}
+.input:focus,
+.input:hover{
+  color: #ee3643;
+}
+
+.registration{
+  width: 150px;
+  height: 45px;
+  font-size: 21px;
+  text-align: left;
+  color: #000000;
+  display: inline-block;
+  background-color: #fff;
+}
+.registration:focus,
+.registration:hover{
+  color: #ee3643;
+}
+.navigation{
+  width: 940px;
+  height: 60px;
+  box-shadow: inset 0px -5px 0 0 #293449;
+  background-color: #32425c;
+  list-style: none;
+}
+.navigation li{
+  display: inline-block;
+}
+/*когда-то здесь будет мейн)*/
+.company{
+  color:#000000;
+}
+.company-texnomart{
+
+  font-size: 30px;
+
+}
+.company-description{
+  width: 519px;
+  height: 37px;
+  font-family: PTSans;
+  font-size: 13px;
+
+}
+.transport-description{
+  font-family: PTSans;
+  font-size: 13px;
+  width: 386px;
+}
+.transport-company{
+  list-style: none;
+  font-weight: 700;
+  line-height: 20px;
+
+}
+.button{
+  width: 220px;
+  height: 38px;
+  background-color: #ee3643;
+  display: inline-block;
+  border-radius:3px;
+  color: #fff;
+}
+.company-button{
+  font-family: Cuprum;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+}
+.contact-main{
+  width: 120px;
+  height: 21px;
+  font-size: 30px;
+  text-align: left;
+  color:#000000
+}
+.contact-take{
+  width: 179px;
+  height: 36px;
+  font-family: PTSans;
+  font-size: 13px;
+  line-height: 24px;
+  text-align: left;
+  color:#000000;
+}
+.find-road-button{
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color:#fff;
+  text-transform: uppercase;
+}
+/*footer*/
+  footer{
+    width: 1200px;
+    height: 300px;
+    background-color: #32425c;
+  }
+.footer-logo{
+  width: 220px;
+  height: 68px;
+  box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.24);
+  background-color: #ee3643;
+}
+.footer-contact{
+  width: 322px;
+  height: 40px;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: left;
+  color: #f3f7f9;
+}
+.footer-main-navigation{
+  list-style: none;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: left;
+}
+.footer-main-navigation li{
+  display: inline-block;
+}
+.footer-main-navigation:focus a,
+.footer-main-navigation:hover a{
+  border-bottom:#fff 1px solid;
+}
+.dop-inform a{
+  font-size: 18px;
+  line-height: 24px;
+  text-align: left;
+  color: #ffd180;
+}
+.dop-inform li{
+  display: inline-block;
+}
+.dop-inform:focus a,
+.dop-inform:hover a{
+  border-bottom:#ffd180 1px solid;
+}
+.developed{
+  width: 1200px;
+  height:107px;
+  background-color:#212a3a;
+}
+.info{
+  width: 228px;
+  height: 33px;
+  font-size: 16px;
+  line-height:18px;
+  text-align: left;
+}
+.social{
+  list-style: none;
+
+}
+.social li{
+  display: inline-block;
+}
+.feedback{
+  width: 135px;
+  height: 32px;
+  font-size: 16px;
+  line-height:18px;
+  text-align: left;
+
+}
+.mail-academy{
+  color:#ffd180;
+}
+.mail-academy:focus,
+.mail-academy:hover{
+  border-bottom:#ffd180 1px solid;
+}
+.develop{
+  width:96px;
+  height: 34px;
+  font-size: 16px;
+  line-height:18px;
+  text-align: left;
+
+}
+.map-popup{
+  display: none;
+}
+.question-form{
+  display: none;
+}
+
+/*inner.html*/
+.profile{
+  width: 299px;
+  height: 45px;
+  font-size: 21px;
+  text-align: left;
+  color:#000000;
+  display: inline-block;
+  background-color: #fff;
+}
+.profile:focus,
+.profile:hover{
+  color: #ee3643;
+}
+.my-order{
+  width: 75px;
+  height: 14px;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: left;
+  color: #32425c;
+  border-bottom:1px #32425c solid;
+}
+.my-order:focus,
+.my-order:hover{
+  color: #ee3643;
+  border-color: #ee3643;
+}
+.my-room{
+  width: 104px;
+  height: 14px;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: left;
+  color: #32425c;
+  border-bottom:1px #32425c solid;
+}
+.my-room:focus,
+.my-room:hover{
+  color: #ee3643;
+  border-color: #ee3643;
+}
+.my{
+  list-style: none;
+}
+.container{
+  color: #000;
+  font-family:"PT Sans", Arial, sans-serif;
+}
+.path a{
+  font-family: "PTSans";
+  font-size: 13px;
+  line-height: 18px;
+  text-transform: uppercase;
+  text-align: left;
+  color: #000000;
+
+}
+.path li{
+  list-style: none;
+  display: inline;
+}
+.perforator {
+  width: 168px;
+  height: 23px;
+  font-family: Cuprum;
+  font-size: 30px;
+  text-align: left;
+  color: #32425c;
+}
+.perforator-back{
+  width: 940px;
+  height: 89px;
+  background-color: #f2f6f8;
+}
+.manufacturer{
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+  color: #000000;
+  text-transform: uppercase;
+}
+.manufacturer-perforators{
+
+  font-size: 15px;
+  line-height: 18px;
+  text-align: left;
+  color: #000000;
+}
+.manufacturer-perforators li{
+  list-style: none;
+}
+.meat{
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+  color: #000000;
+  text-transform: uppercase;
+}
+.manufacturer-meat{
+  font-size: 15px;
+  text-transform: uppercase;
+  line-height: 18px;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+.manufacturer-meat li{
+  list-style: none;
+}
+.filter-button{
+  width: 140px;
+  height: 38px;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  color: #000000;
+  text-transform: uppercase;
+  border: solid 1px #e5e5e5;
+  background-color: var(--white-two);
+}
+.catalog{
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+}
+
+.catalog-item{
+  width: 220px;
+  height: 318px;
+  border: solid 1px #e5e5e5;
+  background-color: var(--white-two);
+  list-style: none;
+}
+.catalog-item a{
+  width: 155px;
+  height: 33px;
+  font-family: PTSans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+}
+.old-price{
+  width: 67px;
+  height: 12px;
+  font-size: 17px;
+  color: #999999;
+  text-decoration-line: unset;
+}
+.buy-back a{
+  width: 41px;
+  height: 10px;
+  font-family: Cuprum;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color:#fff;
+  display: inline-block;
+  text-transform: uppercase;
+}
+.buy-back{
+  width: 135px;
+  height: 38px;
+  box-shadow: inset 0px -3px 0 0 #367315;
+  background-color: #63a63e;
+}
+.button-bookmark{
+  font-family: Cuprum;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #32425c;
+  width: 135px;
+  height: 38px;
+  border: solid 3px #63a63e;
+  text-transform: uppercase;
+  background-color: #fff;
+}
+
