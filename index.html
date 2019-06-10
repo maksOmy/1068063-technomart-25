@@ -257,25 +257,30 @@
                 </div>
       </section>
       </footer>
-      <form class="map-popup">
+      <form class="modal-map">
         <img src="img/big-map.png" width="940" height="446">
-
+        <button class="map-close" type="button">Закрыть</button>
       </form>
 
-      <form class="question-form" action="https://echo.htmlacademy.ru" method="post">
-        <p><label for="your-name">Ваше Имя:</label>
-          <input class="question-icon-user" id="your-name" type="text" name="name" placeholder="Имя Фамилия">
+      <form class="modal-question-form" action="https://echo.htmlacademy.ru" method="post">
+        <div class="container-username">
+        <p><label for="your-name">Ваше Имя:</label><br>
+          <input  id="your-name" type="text" name="name" placeholder="Имя Фамилия">
         </p>
-        <p><label for="email">Ваш e-mail:</label>
-          <input class="question-icon-email" id="email" type="text" name="email" placeholder="email@example.com">
+        <p><label for="email">Ваш e-mail:</label><br>
+          <input  id="email" type="text" name="email" placeholder="email@example.com">
         </p>
-        <p><label for="mail">Текст письма:</label>
-          <input class="text-mail" id="mail" type="text" name="mail" placeholder="Текст письма">
+
+        <p><label for="mail">Текст письма:</label><br>
+          <input class="text-mail" id="mail" type="text" name="mail" placeholder="В свободной форме">
         </p>
+      </div>
+      <div class="container-send">
         <button class="button button-send" type="submit">
           ОТПРАВИТЬ
         </button>
-
-      </form>
+      </div>
+      <button class="guestion-close"></button>
+    </form>
     </body>
 </html>
